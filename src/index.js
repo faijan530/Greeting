@@ -9,7 +9,8 @@ app.get("/", (req, res) => {
 
 // version endpoint
 app.get("/version", (req, res) => {
-  res.json({ version: "0.1.0" });
+ res.json({ version: "0.1" });
+
 });
 
 app.listen(PORT, () => {
